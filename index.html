@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NammaWeb AI Suite | Certified AI Master Mentor Program</title>
+    <title>NammaWeb AI Suite | Growth Marketing AI & Ads (BBA/MBA)</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -12,18 +12,19 @@
                 extend: {
                     colors: {
                         teal: {
-                            50: '#f0fdfa',
-                            100: '#ccfbf1',
-                            600: '#0d9488',
-                            700: '#0f766e',
-                            800: '#115e59',
-                            900: '#134e4a',
-                            950: '#042f2e',
+                            50: '#f0f7f6',
+                            100: '#d7e8e6',
+                            500: '#0d7c72',
+                            600: '#0a635a',
+                            700: '#0d5c56', // Luxury deep teal brand color
+                            800: '#093f3a',
+                            900: '#062d2a',
+                            950: '#041c1a'
                         },
                         gold: {
-                            400: '#facc15',
-                            500: '#eab308',
-                            600: '#ca8a04',
+                            400: '#e5c158',
+                            500: '#d4af37',
+                            600: '#b8972e'
                         }
                     },
                     fontFamily: {
@@ -35,616 +36,615 @@
         }
     </script>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome for icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .glass-luxury {
-            background: rgba(4, 47, 46, 0.85);
-            backdrop-filter: blur(16px);
-            border: 1px solid rgba(20, 184, 166, 0.2);
-        }
-        .card-luxury {
-            background: linear-gradient(145deg, #0f766e 0%, #042f2e 100%);
-            border: 1px solid rgba(20, 184, 166, 0.3);
-            box-shadow: 0 20px 40px -15px rgba(4, 47, 46, 0.5);
-        }
-        .gold-gradient-text {
-            background: linear-gradient(135deg, #fef08a 0%, #ca8a04 50%, #facc15 100%);
+        .gold-gradient {
+            background: linear-gradient(135deg, #d4af37 0%, #f6e2b3 50%, #b8972e 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        @keyframes float {
+        @keyframes floatAnim {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-8px); }
         }
-        .animate-float {
-            animation: float 4s ease-in-out infinite;
+        .floating-badge {
+            animation: floatAnim 4s ease-in-out infinite;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #041c1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0d5c56;
+            border-radius: 4px;
         }
     </style>
 </head>
-<body class="bg-teal-950 text-teal-50 font-sans antialiased selection:bg-teal-600 selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-teal-700 selection:text-white">
 
-    <!-- Top Announcement Bar -->
-    <div class="bg-gradient-to-r from-teal-900 via-teal-800 to-teal-900 border-b border-teal-700/50 py-2.5 px-4 text-center text-xs sm:text-sm tracking-wide text-teal-200">
-        <span class="font-semibold uppercase tracking-widest text-gold-400 mr-2"><i class="fa-solid fa-award mr-1"></i> NEP 2020 Compliant</span> Official Certification for Schools & PU Colleges • Limited Cohort Open
-    </div>
-
-    <!-- Navigation Bar -->
-    <header class="sticky top-0 z-50 glass-luxury border-b border-teal-800/60 transition-all duration-300">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-teal-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <!-- Brand Logo & Name -->
-            <a href="#home" onclick="switchPage('home')" class="flex items-center space-x-3 group cursor-pointer">
-                <!-- Uploaded logo.png in header -->
-                <div class="w-12 h-12 rounded-xl bg-teal-900/90 border border-teal-600/60 flex items-center justify-center p-1 shadow-lg group-hover:border-gold-400 transition-all overflow-hidden">
-                    <img src="logo.png" alt="NammaWeb AI Suite Logo" class="w-full h-full object-contain">
+            <a href="#" onclick="switchPage('home')" class="flex items-center space-x-3 group">
+                <!-- Interlocking Geometric Diamond Logo Emblem -->
+                <div class="w-11 h-11 rounded-xl bg-teal-700 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform border border-teal-600">
+                    <svg class="w-7 h-7 text-white" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="8">
+                        <path d="M50 10 L85 45 L50 80 L15 45 Z" />
+                        <path d="M30 30 L70 30 L70 70 L30 70 Z" />
+                    </svg>
                 </div>
                 <div>
-                    <span class="text-xl sm:text-2xl font-serif font-bold tracking-wider text-white">NammaWeb<span class="text-teal-400">.</span>AI</span>
-                    <span class="block text-[10px] uppercase tracking-widest text-teal-300 font-medium">AI Master Suite</span>
+                    <span class="text-xl font-bold font-serif tracking-wide text-teal-950">NammaWeb</span>
+                    <span class="block text-[10px] tracking-widest text-teal-700 font-semibold uppercase">AI Suite & Ads</span>
                 </div>
             </a>
 
-            <!-- Desktop Menu -->
-            <nav class="hidden md:flex items-center space-x-8">
-                <button onclick="switchPage('home')" id="nav-home-btn" class="text-sm font-medium tracking-wide text-teal-200 hover:text-white transition-colors pb-1 border-b-2 border-teal-400">Program Overview</button>
-                <button onclick="switchPage('blog')" id="nav-blog-btn" class="text-sm font-medium tracking-wide text-teal-300 hover:text-white transition-colors pb-1 border-b-2 border-transparent">SEO Insights & Blog</button>
-                <a href="#curriculum" onclick="switchPage('home')" class="text-sm font-medium tracking-wide text-teal-300 hover:text-white transition-colors">NEP Curriculum</a>
-                <a href="#pricing" onclick="switchPage('home')" class="text-sm font-medium tracking-wide text-teal-300 hover:text-white transition-colors">Investment</a>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                <button onclick="switchPage('home')" id="nav-home" class="text-teal-700 font-semibold transition-colors pb-1 border-b-2 border-teal-700">Program & Pricing</button>
+                <button onclick="switchPage('blog')" id="nav-blog" class="text-slate-600 hover:text-teal-700 transition-colors pb-1 border-b-2 border-transparent">SEO Blog & Insights</button>
+                <a href="#booking" onclick="switchPage('home')" class="bg-teal-700 hover:bg-teal-800 text-white px-5 py-2.5 rounded-xl shadow-md transition-all">Enroll Now</a>
             </nav>
 
-            <!-- Action CTA -->
-            <div class="flex items-center space-x-4">
-                <a href="#pricing" onclick="switchPage('home')" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-500 hover:to-teal-600 text-white font-medium text-sm shadow-lg shadow-teal-900/40 border border-teal-500/30 transition-all transform hover:-translate-y-0.5">
-                    Secure Enrollment
-                </a>
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden text-teal-200 hover:text-white p-2">
-                    <i class="fa-solid fa-bars text-xl"></i>
-                </button>
-            </div>
+            <button onclick="toggleMobileMenu()" class="md:hidden text-teal-950 focus:outline-none p-2" aria-label="Toggle mobile menu">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
         </div>
 
-        <!-- Mobile Menu Dropdown -->
-        <div id="mobile-menu" class="hidden md:hidden bg-teal-950/95 border-b border-teal-800 px-6 py-4 space-y-3">
-            <button onclick="switchPage('home'); toggleMobileMenu();" class="block w-full text-left text-teal-200 hover:text-white py-2 font-medium">Program Overview</button>
-            <button onclick="switchPage('blog'); toggleMobileMenu();" class="block w-full text-left text-teal-200 hover:text-white py-2 font-medium">SEO Insights & Blog</button>
-            <a href="#curriculum" onclick="toggleMobileMenu();" class="block text-teal-200 hover:text-white py-2 font-medium">NEP Curriculum</a>
-            <a href="#pricing" onclick="toggleMobileMenu();" class="block text-teal-200 hover:text-white py-2 font-medium">Investment Packages</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-teal-100 px-6 py-4 space-y-3">
+            <button onclick="switchPage('home'); toggleMobileMenu();" class="block w-full text-left font-medium text-teal-700 py-2">Program & Pricing</button>
+            <button onclick="switchPage('blog'); toggleMobileMenu();" class="block w-full text-left font-medium text-slate-700 py-2">SEO Blog & Insights</button>
+            <a href="#booking" onclick="switchPage('home'); toggleMobileMenu();" class="block text-center bg-teal-700 text-white py-2.5 rounded-xl font-medium">Enroll Now</a>
         </div>
     </header>
 
-    <!-- ================= PAGE 1: HOME / PROGRAM OVERVIEW ================= -->
-    <main id="page-home" class="block">
-        
-        <!-- Hero Section -->
-        <section class="relative pt-20 pb-28 overflow-hidden bg-gradient-to-b from-teal-950 via-teal-900 to-teal-950">
-            <!-- Background glow accents -->
-            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-teal-600/10 rounded-full blur-3xl pointer-events-none"></div>
-            
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                    
-                    <!-- Hero Content -->
-                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-teal-900/90 border border-teal-600/40 text-teal-200 text-xs font-semibold tracking-wider uppercase">
-                            <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
-                            <span>High-Income Career Opportunity</span>
+    <main>
+        <!-- Page 1: Home / Programs & Pricing -->
+        <div id="page-home" class="page-view">
+            <!-- Hero Section -->
+            <section class="relative bg-gradient-to-b from-teal-950 via-teal-900 to-teal-800 text-white py-24 px-4 overflow-hidden">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+                    <div class="lg:col-span-7 space-y-6">
+                        <div class="inline-flex items-center space-x-2 bg-teal-800/80 border border-teal-600 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-teal-200">
+                            <i class="fa-solid fa-graduation-cap text-gold-400"></i>
+                            <span>BBA & MBA Executive Specialization</span>
                         </div>
-
-                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.15]">
-                            Certified AI Master <span class="gold-gradient-text">Mentor Program</span>
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold leading-tight tracking-tight">
+                            Growth Marketing <span class="gold-gradient">AI & Ads</span> Suite
                         </h1>
-
-                        <!-- 6-Line Core Program Description -->
-                        <div class="text-teal-200 text-base sm:text-lg leading-relaxed font-light space-y-2 bg-teal-900/40 p-6 rounded-2xl border border-teal-800/60 shadow-xl">
-                            <p>1. Step into India’s fastest-growing EdTech career track as an elite Certified AI Trainer for Schools and PU Colleges.</p>
-                            <p>2. Master cutting-edge pedagogical AI tools, automated assessment pipelines, and next-generation mentoring frameworks.</p>
-                            <p>3. Direct alignment with NEP 2020 guidelines, empowering academic institutions to seamlessly integrate artificial intelligence.</p>
-                            <p>4. Build high-ticket consulting revenue streams guiding students through NEET, CET, and JEE academic excellence.</p>
-                            <p>5. Gain comprehensive mastery over prompt engineering, machine learning foundations, and institutional AI deployment.</p>
-                            <p>6. Secure lifelong placement support, high-end institutional contracts, and elite certification endorsed by NammaWeb AI Suite.</p>
+                        <p class="text-slate-300 text-lg font-light leading-relaxed">
+                            Empowering future business leaders and modern marketers with state-of-the-art artificial intelligence, high-converting ad frameworks, and autonomous programmatic campaigns designed for elite corporate scaling.
+                        </p>
+                        
+                        <!-- Exact 6-Line Program Overview Description -->
+                        <div class="bg-teal-900/80 border border-teal-700/80 p-6 rounded-2xl backdrop-blur-md space-y-3 shadow-2xl">
+                            <h3 class="text-xs uppercase tracking-widest font-bold text-gold-400 flex items-center gap-2">
+                                <i class="fa-solid fa-circle-info"></i> Growth Marketing AI & Ads (BBA/MBA) Overview
+                            </h3>
+                            <ul class="space-y-2 text-sm text-slate-200 font-light">
+                                <li class="flex items-start gap-2.5"><span class="text-gold-400 font-bold">1.</span> Master advanced AI-driven customer acquisition algorithms and predictive lifetime value modeling.</li>
+                                <li class="flex items-start gap-2.5"><span class="text-gold-400 font-bold">2.</span> Deploy high-ROAS multi-channel ad architectures across Meta, Google, LinkedIn, and programmatic networks.</li>
+                                <li class="flex items-start gap-2.5"><span class="text-gold-400 font-bold">3.</span> Integrate advanced BBA/MBA strategic frameworks with real-world automated growth hacking funnels.</li>
+                                <li class="flex items-start gap-2.5"><span class="text-gold-400 font-bold">4.</span> Utilize generative AI tools for real-time hyper-personalized copywriting, creative testing, and scaling.</li>
+                                <li class="flex items-start gap-2.5"><span class="text-gold-400 font-bold">5.</span> Execute data-driven attribution modeling, multivariate cohort analysis, and automated budget allocation.</li>
+                                <li class="flex items-start gap-2.5"><span class="text-gold-400 font-bold">6.</span> Earn industry-recognized elite certification tailored for modern CMOs, founders, and digital directors.</li>
+                            </ul>
                         </div>
 
-                        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                            <a href="#pricing" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-teal-950 font-bold text-base shadow-xl shadow-gold-600/20 transition-all transform hover:-translate-y-0.5 text-center">
-                                View Investment Plans <i class="fa-solid fa-arrow-right ml-2"></i>
+                        <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                            <a href="#booking" class="bg-gold-500 hover:bg-gold-600 text-teal-950 font-bold px-8 py-4 rounded-xl text-center shadow-lg transition-all transform hover:-translate-y-0.5">
+                                View Indian Pricing & Enroll
                             </a>
-                            <a href="#curriculum" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-teal-900/80 hover:bg-teal-800 border border-teal-600/50 text-white font-medium text-base transition-all text-center">
-                                Explore Curriculum
+                            <a href="#gallery" class="border border-teal-600 hover:bg-teal-800/50 text-white font-medium px-8 py-4 rounded-xl text-center transition-all">
+                                Explore Visual Gallery
                             </a>
                         </div>
                     </div>
 
-                    <!-- Hero Visual / NEET/CET/JEE Image Grid Showcase -->
-                    <div class="lg:col-span-5">
-                        <div class="relative mx-auto max-w-md lg:max-w-none">
-                            <div class="absolute -inset-1.5 bg-gradient-to-r from-teal-500 to-gold-500 rounded-3xl blur opacity-30 animate-float"></div>
-                            <div class="relative card-luxury p-6 rounded-3xl space-y-4">
-                                <div class="flex items-center justify-between pb-2 border-b border-teal-800">
-                                    <h3 class="font-serif text-lg font-semibold text-white">NEET / CET / JEE AI Mastery</h3>
-                                    <span class="text-xs text-gold-400 font-semibold bg-teal-900/80 px-2.5 py-1 rounded-md border border-teal-700">Medical & Engg Tracks</span>
-                                </div>
-
-                                <!-- 3-4 Photos Gallery Grid for NEET/CET/JEE -->
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="relative group overflow-hidden rounded-xl border border-teal-700/50 aspect-video">
-                                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="NEET Medical AI Training" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-transparent to-transparent flex items-end p-2.5">
-                                            <span class="text-xs font-medium text-white">NEET Medical AI</span>
-                                        </div>
-                                    </div>
-                                    <div class="relative group overflow-hidden rounded-xl border border-teal-700/50 aspect-video">
-                                        <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="CET & JEE Engineering Lab" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-transparent to-transparent flex items-end p-2.5">
-                                            <span class="text-xs font-medium text-white">JEE Engineering</span>
-                                        </div>
-                                    </div>
-                                    <div class="relative group overflow-hidden rounded-xl border border-teal-700/50 aspect-video">
-                                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="PU College Smart Classroom" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-transparent to-transparent flex items-end p-2.5">
-                                            <span class="text-xs font-medium text-white">PU College Labs</span>
-                                        </div>
-                                    </div>
-                                    <div class="relative group overflow-hidden rounded-xl border border-teal-700/50 aspect-video">
-                                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80" alt="Advanced AI Mentorship" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                        <div class="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-transparent to-transparent flex items-end p-2.5">
-                                            <span class="text-xs font-medium text-white">AI Mentor Cohort</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="p-3 bg-teal-900/60 rounded-xl border border-teal-700/50 flex items-center justify-between text-xs text-teal-300">
-                                    <span><i class="fa-solid fa-circle-check text-gold-400 mr-1.5"></i> Verified High-Income Career Path</span>
-                                    <span class="font-semibold text-white">NEP 2020 Standard</span>
-                                </div>
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="relative w-full max-w-md">
+                            <div class="absolute -top-6 -left-6 bg-gold-500 text-teal-950 font-bold px-4 py-2 rounded-xl text-xs uppercase tracking-wider shadow-lg floating-badge z-20">
+                                🚀 AI-Powered Curriculum
+                            </div>
+                            <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-teal-700/60 bg-teal-900">
+                                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop" alt="Growth Marketing Dashboard" class="w-full h-[460px] object-cover opacity-90" onerror="this.src='https://placehold.co/800x460/0d5c56/ffffff?text=Growth+Marketing+AI'">
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- NEP 2020 Guidelines & Curriculum Section -->
-        <section id="curriculum" class="py-24 bg-teal-900/30 border-y border-teal-800/40">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- 4 Photo Growth Marketing Gallery Section -->
+            <section id="gallery" class="py-20 px-4 max-w-7xl mx-auto">
                 <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">Designed for NEP 2020 Excellence</h2>
-                    <p class="text-teal-200 text-base">Empowering schools and PU colleges across India with certified AI master trainers capable of transforming foundational and competitive entrance exam preparation.</p>
+                    <span class="text-teal-700 font-semibold text-sm uppercase tracking-widest">Visual Showcase</span>
+                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-teal-950">Growth Marketing AI & Ads In Action</h2>
+                    <p class="text-slate-600 font-light">Explore our four pillars of elite executive training through immersive AI analytics, automated ad optimization, strategic planning, and funnel engineering.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Pillar 1 -->
-                    <div class="card-luxury p-8 rounded-2xl space-y-4 relative group">
-                        <div class="w-12 h-12 rounded-xl bg-teal-800 flex items-center justify-center text-gold-400 text-xl border border-teal-600/50">
-                            <i class="fa-solid fa-graduation-cap"></i>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Photo Card 1: AI Analytics -->
+                    <div class="group relative rounded-2xl overflow-hidden shadow-xl bg-white border border-teal-100 flex flex-col">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1533750349077-cdcd10639b2b?q=80&w=600&auto=format&fit=crop" alt="AI Analytics" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/0d5c56/ffffff?text=AI+Analytics'">
+                            <div class="absolute inset-0 bg-gradient-to-t from-teal-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white text-xs font-semibold uppercase tracking-wider bg-teal-700/80 px-3 py-1 rounded-full">Predictive Modeling</span>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-serif font-bold text-white">School & PU Integration</h3>
-                        <p class="text-teal-200 text-sm leading-relaxed">Implement certified AI modules directly into standard high school and PU college curricula in strict compliance with National Education Policy 2020 standards.</p>
-                        <ul class="space-y-2 text-xs text-teal-300 pt-2 border-t border-teal-800/80">
-                            <li><i class="fa-solid fa-check text-gold-400 mr-2"></i> Experiential learning modules</li>
-                            <li><i class="fa-solid fa-check text-gold-400 mr-2"></i> Institutional trainer credentials</li>
-                        </ul>
+                        <div class="p-5 space-y-2 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-[11px] font-semibold text-teal-700 uppercase tracking-wider">Pillar 01</span>
+                                <h3 class="text-base font-bold text-teal-950 mt-1">AI Analytics & LTV</h3>
+                                <p class="text-xs text-slate-600 font-light mt-1">Forecast customer lifetime value and optimize acquisition costs instantly with machine learning.</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Pillar 2 -->
-                    <div class="card-luxury p-8 rounded-2xl space-y-4 relative group">
-                        <div class="w-12 h-12 rounded-xl bg-teal-800 flex items-center justify-center text-gold-400 text-xl border border-teal-600/50">
-                            <i class="fa-solid fa-brain"></i>
+                    <!-- Photo Card 2: Ad Optimization -->
+                    <div class="group relative rounded-2xl overflow-hidden shadow-xl bg-white border border-teal-100 flex flex-col">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop" alt="Ad Optimization" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/0d5c56/ffffff?text=Ad+Optimization'">
+                            <div class="absolute inset-0 bg-gradient-to-t from-teal-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white text-xs font-semibold uppercase tracking-wider bg-teal-700/80 px-3 py-1 rounded-full">Programmatic Ads</span>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-serif font-bold text-white">NEET, CET & JEE AI Mastery</h3>
-                        <p class="text-teal-200 text-sm leading-relaxed">Equip students with specialized AI diagnostic tools, adaptive testing models, and high-precision problem-solving frameworks for medical and engineering entrances.</p>
-                        <ul class="space-y-2 text-xs text-teal-300 pt-2 border-t border-teal-800/80">
-                            <li><i class="fa-solid fa-check text-gold-400 mr-2"></i> Adaptive question banks</li>
-                            <li><i class="fa-solid fa-check text-gold-400 mr-2"></i> Performance predictive analytics</li>
-                        </ul>
+                        <div class="p-5 space-y-2 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-[11px] font-semibold text-teal-700 uppercase tracking-wider">Pillar 02</span>
+                                <h3 class="text-base font-bold text-teal-950 mt-1">Autonomous Ad Bidding</h3>
+                                <p class="text-xs text-slate-600 font-light mt-1">Deploy smart bidding algorithms and automated creative testing across high-yield ad networks.</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Pillar 3 -->
-                    <div class="card-luxury p-8 rounded-2xl space-y-4 relative group">
-                        <div class="w-12 h-12 rounded-xl bg-teal-800 flex items-center justify-center text-gold-400 text-xl border border-teal-600/50">
-                            <i class="fa-solid fa-briefcase"></i>
+                    <!-- Photo Card 3: Executive Growth Strategies -->
+                    <div class="group relative rounded-2xl overflow-hidden shadow-xl bg-white border border-teal-100 flex flex-col">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=600&auto=format&fit=crop" alt="Executive Strategies" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/0d5c56/ffffff?text=Executive+Strategy'">
+                            <div class="absolute inset-0 bg-gradient-to-t from-teal-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white text-xs font-semibold uppercase tracking-wider bg-teal-700/80 px-3 py-1 rounded-full">BBA / MBA Track</span>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-serif font-bold text-white">High-Income Career Launch</h3>
-                        <p class="text-teal-200 text-sm leading-relaxed">Establish independent high-ticket consulting practices, secure institutional trainer contracts, and generate sustainable revenue in the booming EdTech sector.</p>
-                        <ul class="space-y-2 text-xs text-teal-300 pt-2 border-t border-teal-800/80">
-                            <li><i class="fa-solid fa-check text-gold-400 mr-2"></i> Lucrative retainer models</li>
-                            <li><i class="fa-solid fa-check text-gold-400 mr-2"></i> Direct institutional placement</li>
-                        </ul>
+                        <div class="p-5 space-y-2 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-[11px] font-semibold text-teal-700 uppercase tracking-wider">Pillar 03</span>
+                                <h3 class="text-base font-bold text-teal-950 mt-1">Executive Growth Strategy</h3>
+                                <p class="text-xs text-slate-600 font-light mt-1">Merge classical BBA/MBA governance with disruptive AI ad execution for brand supremacy.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Photo Card 4: Automated Funnel Creation -->
+                    <div class="group relative rounded-2xl overflow-hidden shadow-xl bg-white border border-teal-100 flex flex-col">
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=600&auto=format&fit=crop" alt="Automated Funnels" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/0d5c56/ffffff?text=Funnel+Creation'">
+                            <div class="absolute inset-0 bg-gradient-to-t from-teal-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                                <span class="text-white text-xs font-semibold uppercase tracking-wider bg-teal-700/80 px-3 py-1 rounded-full">Funnel Automation</span>
+                            </div>
+                        </div>
+                        <div class="p-5 space-y-2 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-[11px] font-semibold text-teal-700 uppercase tracking-wider">Pillar 04</span>
+                                <h3 class="text-base font-bold text-teal-950 mt-1">Automated Funnel Creation</h3>
+                                <p class="text-xs text-slate-600 font-light mt-1">Build high-converting conversion loops that nurture leads autonomously 24/7.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            <!-- Booking Section with Indian Prices: 30, 60, 125 Days -->
+            <section id="booking" class="py-20 bg-teal-50/50 border-y border-teal-100 px-4">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                        <span class="text-teal-700 font-semibold text-sm uppercase tracking-widest">Investment & Enrollment</span>
+                        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-teal-950">Select Your Growth Program Duration</h2>
+                        <p class="text-slate-600 font-light">Choose the executive training track that aligns with your professional timeline. All pricing structured in Indian Rupees (INR) with complete live mentorship.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                        <!-- 30 Days Package -->
+                        <div class="bg-white rounded-3xl p-8 shadow-xl border border-teal-100 flex flex-col justify-between hover:shadow-2xl transition-shadow">
+                            <div class="space-y-6">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xs font-bold uppercase tracking-widest bg-teal-100 text-teal-800 px-3 py-1 rounded-full">Fast Track</span>
+                                    <span class="text-teal-700 font-semibold text-sm">30 Days</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold font-serif text-teal-950">AI Ads Accelerator</h3>
+                                    <p class="text-sm text-slate-500 mt-1">Intensive sprint focusing on tactical ad setups and generative AI copywriting.</p>
+                                </div>
+                                <div class="py-4 border-y border-slate-100">
+                                    <div class="text-4xl font-extrabold text-teal-900">₹24,999</div>
+                                    <div class="text-xs text-slate-500 mt-1">Inclusive of all taxes & certification</div>
+                                </div>
+                                <ul class="space-y-3 text-sm text-slate-600">
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> Core AI Ad Frameworks</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> Meta & Google Ad Blueprints</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> 30-Day Certificate of Completion</li>
+                                </ul>
+                            </div>
+                            <div class="pt-8">
+                                <button onclick="openBookingModal('30 Days Accelerator', '₹24,999')" class="w-full bg-teal-700 hover:bg-teal-800 text-white font-semibold py-3.5 rounded-xl shadow-md transition-all">
+                                    Book 30 Days Track
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- 60 Days Package (Featured) -->
+                        <div class="bg-teal-900 text-white rounded-3xl p-8 shadow-2xl border-2 border-gold-500 flex flex-col justify-between relative transform md:-translate-y-4">
+                            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gold-500 text-teal-950 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider shadow">
+                                Most Popular Choice
+                            </div>
+                            <div class="space-y-6 pt-2">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xs font-bold uppercase tracking-widest bg-teal-800 text-gold-400 px-3 py-1 rounded-full border border-teal-700">Executive Track</span>
+                                    <span class="text-teal-300 font-semibold text-sm">60 Days</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold font-serif text-white">Growth Marketing & AI Mastery</h3>
+                                    <p class="text-sm text-slate-300 mt-1">Comprehensive dual BBA/MBA framework with full funnel automation & scaling.</p>
+                                </div>
+                                <div class="py-4 border-y border-teal-800">
+                                    <div class="text-4xl font-extrabold text-gold-400">₹44,999</div>
+                                    <div class="text-xs text-slate-400 mt-1">Inclusive of all taxes & live masterclasses</div>
+                                </div>
+                                <ul class="space-y-3 text-sm text-slate-200">
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Everything in 30 Days Track</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Advanced BBA/MBA Growth Strategy</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> 1-on-1 Mentorship Sessions</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-400"></i> Executive Digital Badge</li>
+                                </ul>
+                            </div>
+                            <div class="pt-8">
+                                <button onclick="openBookingModal('60 Days Mastery', '₹44,999')" class="w-full bg-gold-500 hover:bg-gold-600 text-teal-950 font-bold py-3.5 rounded-xl shadow-lg transition-all">
+                                    Book 60 Days Mastery
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- 125 Days Package -->
+                        <div class="bg-white rounded-3xl p-8 shadow-xl border border-teal-100 flex flex-col justify-between hover:shadow-2xl transition-shadow">
+                            <div class="space-y-6">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xs font-bold uppercase tracking-widest bg-teal-100 text-teal-800 px-3 py-1 rounded-full">Ultimate Fellowship</span>
+                                    <span class="text-teal-700 font-semibold text-sm">125 Days</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold font-serif text-teal-950">Enterprise AI & CMO Suite</h3>
+                                    <p class="text-sm text-slate-500 mt-1">Complete immersive corporate fellowship for founders and future CMOs.</p>
+                                </div>
+                                <div class="py-4 border-y border-slate-100">
+                                    <div class="text-4xl font-extrabold text-teal-900">₹79,999</div>
+                                    <div class="text-xs text-slate-500 mt-1">Inclusive of all taxes & lifetime portal access</div>
+                                </div>
+                                <ul class="space-y-3 text-sm text-slate-600">
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> Full 125-Day Immersive Fellowship</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> Custom Enterprise AI Ad Vault</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> Direct Agency Placement Support</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-600"></i> Lifetime Alumni Mastermind Access</li>
+                                </ul>
+                            </div>
+                            <div class="pt-8">
+                                <button onclick="openBookingModal('125 Days Enterprise Fellowship', '₹79,999')" class="w-full bg-teal-700 hover:bg-teal-800 text-white font-semibold py-3.5 rounded-xl shadow-md transition-all">
+                                    Book 125 Days Fellowship
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Page 2: SEO Blog & Insights -->
+        <div id="page-blog" class="page-view hidden py-16 px-4 max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-teal-700 font-semibold text-sm uppercase tracking-widest">Thought Leadership</span>
+                <h1 class="text-3xl sm:text-5xl font-serif font-bold text-teal-950">SEO Blog & Growth Insights</h1>
+                <p class="text-slate-600 font-light">Explore expert articles on growth marketing AI, programmatic ad scaling, and modern BBA/MBA career acceleration.</p>
             </div>
-        </section>
 
-        <!-- Booking & Investment Section (30, 60, 125 Days in INR) -->
-        <section id="pricing" class="py-24 bg-teal-950 relative">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold px-3 py-1 bg-teal-900 rounded-full border border-teal-700">Flexible Cohort Durations</span>
-                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">Investment & Booking Packages</h2>
-                    <p class="text-teal-200 text-base">Select your immersive mentorship duration to become a certified AI master mentor with complete curriculum access.</p>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
-                    
-                    <!-- Package 1: 30 Days -->
-                    <div class="card-luxury p-8 rounded-3xl flex flex-col justify-between border border-teal-700/50 relative hover:border-gold-400/50 transition-all">
-                        <div class="space-y-6">
-                            <div class="flex justify-between items-center">
-                                <span class="text-xs uppercase tracking-widest text-teal-300 font-bold bg-teal-900 px-3 py-1 rounded-full border border-teal-700">Fast-Track</span>
-                                <span class="text-sm text-gold-400 font-medium">30 Days Cohort</span>
-                            </div>
-                            <div>
-                                <h3 class="text-2xl font-serif font-bold text-white">AI Mentor Foundation</h3>
-                                <p class="text-xs text-teal-300 mt-1">Intensive boot camp for core AI trainer certification.</p>
-                            </div>
-                            <div class="py-4 border-y border-teal-800">
-                                <span class="text-4xl font-bold font-serif text-white">₹24,999</span>
-                                <span class="text-xs text-teal-300 ml-1">inclusive of all taxes</span>
-                            </div>
-                            <ul class="space-y-3 text-sm text-teal-200">
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Core NEP 2020 AI Modules</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Basic NEET/CET/JEE AI Tools</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> 30-Day Digital Certificate</li>
-                                <li class="flex items-center text-teal-400 opacity-60"><i class="fa-solid fa-xmark mr-3"></i> Advanced Institutional Placement</li>
-                            </ul>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-lg border border-teal-100 flex flex-col justify-between hover:shadow-xl transition-shadow">
+                    <div>
+                        <div class="h-52 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" alt="Autonomous AI Agents" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         </div>
-                        <div class="pt-8">
-                            <button onclick="openBookingModal('30 Days Accelerator', '₹24,999')" class="w-full py-3.5 rounded-xl bg-teal-800 hover:bg-teal-700 border border-teal-600 text-white font-semibold text-sm transition-all shadow-lg">
-                                Enroll for 30 Days
-                            </button>
+                        <div class="p-6 space-y-3">
+                            <div class="flex items-center justify-between text-xs text-slate-500">
+                                <span class="bg-teal-50 text-teal-700 px-2.5 py-1 rounded-full font-semibold">Growth AI</span>
+                                <span>6 min read</span>
+                            </div>
+                            <h2 class="text-xl font-bold font-serif text-teal-950 hover:text-teal-700 cursor-pointer" onclick="openBlogArticle('How Autonomous AI Agents are Transforming Digital Ad Buying in 2026')">How Autonomous AI Agents are Transforming Digital Ad Buying in 2026</h2>
+                            <p class="text-sm text-slate-600 font-light line-clamp-3">Discover how machine learning algorithms now allocate budgets across multi-channel ad platforms in real-time with zero human latency.</p>
                         </div>
                     </div>
+                    <div class="px-6 pb-6 pt-0 flex items-center justify-between border-t border-slate-100 pt-4">
+                        <span class="text-xs text-slate-500 font-medium">By NammaWeb Research</span>
+                        <button onclick="openBlogArticle('How Autonomous AI Agents are Transforming Digital Ad Buying in 2026')" class="text-teal-700 font-semibold text-sm hover:underline">Read Article →</button>
+                    </div>
+                </article>
 
-                    <!-- Package 2: 60 Days (Featured) -->
-                    <div class="card-luxury p-8 rounded-3xl flex flex-col justify-between border-2 border-gold-400/80 relative shadow-2xl transform md:-translate-y-2">
-                        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-gold-500 to-gold-600 text-teal-950 font-bold text-xs uppercase tracking-widest px-4 py-1 rounded-full shadow-md">
-                            Most Popular Choice
+                <!-- Blog Post 2 -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-lg border border-teal-100 flex flex-col justify-between hover:shadow-xl transition-shadow">
+                    <div>
+                        <div class="h-52 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=600&auto=format&fit=crop" alt="BBA MBA Playbook" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         </div>
-                        <div class="space-y-6">
-                            <div class="flex justify-between items-center">
-                                <span class="text-xs uppercase tracking-widest text-teal-200 font-bold bg-teal-800 px-3 py-1 rounded-full border border-teal-600">Professional</span>
-                                <span class="text-sm text-gold-400 font-medium">60 Days Cohort</span>
+                        <div class="p-6 space-y-3">
+                            <div class="flex items-center justify-between text-xs text-slate-500">
+                                <span class="bg-teal-50 text-teal-700 px-2.5 py-1 rounded-full font-semibold">BBA/MBA Track</span>
+                                <span>8 min read</span>
                             </div>
-                            <div>
-                                <h3 class="text-2xl font-serif font-bold text-white">Certified AI Master Mentor</h3>
-                                <p class="text-xs text-teal-300 mt-1">Complete mastery for schools & PU college deployment.</p>
-                            </div>
-                            <div class="py-4 border-y border-teal-800">
-                                <span class="text-4xl font-bold font-serif text-gold-400">₹49,999</span>
-                                <span class="text-xs text-teal-300 ml-1">inclusive of all taxes</span>
-                            </div>
-                            <ul class="space-y-3 text-sm text-teal-200">
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Complete NEP 2020 Master Curriculum</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Advanced NEET, CET & JEE AI Labs</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Institutional Trainer Certification</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Direct School Placement Assistance</li>
-                            </ul>
-                        </div>
-                        <div class="pt-8">
-                            <button onclick="openBookingModal('60 Days Master Mentor Program', '₹49,999')" class="w-full py-4 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-teal-950 font-bold text-sm transition-all shadow-xl shadow-gold-600/30">
-                                Secure 60-Day Enrollment
-                            </button>
+                            <h2 class="text-xl font-bold font-serif text-teal-950 hover:text-teal-700 cursor-pointer" onclick="openBlogArticle('The Modern BBA/MBA Playbook: Why Growth Marketing is Replacing Traditional Advertising')">The Modern BBA/MBA Playbook: Why Growth Marketing is Replacing Traditional Advertising</h2>
+                            <p class="text-sm text-slate-600 font-light line-clamp-3">An analytical breakdown of why top tier business school graduates are shifting focus towards algorithmic growth funnels and data engineering.</p>
                         </div>
                     </div>
+                    <div class="px-6 pb-6 pt-0 flex items-center justify-between border-t border-slate-100 pt-4">
+                        <span class="text-xs text-slate-500 font-medium">By Prof. Arvind Rao</span>
+                        <button onclick="openBlogArticle('The Modern BBA/MBA Playbook: Why Growth Marketing is Replacing Traditional Advertising')" class="text-teal-700 font-semibold text-sm hover:underline">Read Article →</button>
+                    </div>
+                </article>
 
-                    <!-- Package 3: 125 Days -->
-                    <div class="card-luxury p-8 rounded-3xl flex flex-col justify-between border border-teal-700/50 relative hover:border-gold-400/50 transition-all">
-                        <div class="space-y-6">
-                            <div class="flex justify-between items-center">
-                                <span class="text-xs uppercase tracking-widest text-teal-300 font-bold bg-teal-900 px-3 py-1 rounded-full border border-teal-700">Executive Elite</span>
-                                <span class="text-sm text-gold-400 font-medium">125 Days Cohort</span>
-                            </div>
-                            <div>
-                                <h3 class="text-2xl font-serif font-bold text-white">Executive AI Practice Leader</h3>
-                                <p class="text-xs text-teal-300 mt-1">Full consultancy & franchise training enablement.</p>
-                            </div>
-                            <div class="py-4 border-y border-teal-800">
-                                <span class="text-4xl font-bold font-serif text-white">₹99,999</span>
-                                <span class="text-xs text-teal-300 ml-1">inclusive of all taxes</span>
-                            </div>
-                            <ul class="space-y-3 text-sm text-teal-200">
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Executive 125-Day Immersive Mentorship</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Franchise & Consultancy Setup Kit</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Lifetime NammaWeb Partner Rights</li>
-                                <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Dedicated 1-on-1 Faculty Support</li>
-                            </ul>
+                <!-- Blog Post 3 -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-lg border border-teal-100 flex flex-col justify-between hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-1">
+                    <div>
+                        <div class="h-52 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" alt="SEO with AI Paid Ads" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                         </div>
-                        <div class="pt-8">
-                            <button onclick="openBookingModal('125 Days Executive Practice Leader', '₹99,999')" class="w-full py-3.5 rounded-xl bg-teal-800 hover:bg-teal-700 border border-teal-600 text-white font-semibold text-sm transition-all shadow-lg">
-                                Enroll for 125 Days
-                            </button>
+                        <div class="p-6 space-y-3">
+                            <div class="flex items-center justify-between text-xs text-slate-500">
+                                <span class="bg-teal-50 text-teal-700 px-2.5 py-1 rounded-full font-semibold">SEO & Ads</span>
+                                <span>5 min read</span>
+                            </div>
+                            <h2 class="text-xl font-bold font-serif text-teal-950 hover:text-teal-700 cursor-pointer" onclick="openBlogArticle('Synergizing SEO with AI Paid Ads for Omnichannel Conversion Supremacy')">Synergizing SEO with AI Paid Ads for Omnichannel Conversion Supremacy</h2>
+                            <p class="text-sm text-slate-600 font-light line-clamp-3">Learn the exact framework used by unicorn startups to retarget organic search traffic with precision-engineered AI video ads.</p>
                         </div>
                     </div>
-
-                </div>
+                    <div class="px-6 pb-6 pt-0 flex items-center justify-between border-t border-slate-100 pt-4">
+                        <span class="text-xs text-slate-500 font-medium">By NammaWeb Team</span>
+                        <button onclick="openBlogArticle('Synergizing SEO with AI Paid Ads for Omnichannel Conversion Supremacy')" class="text-teal-700 font-semibold text-sm hover:underline">Read Article →</button>
+                    </div>
+                </article>
             </div>
-        </section>
-
+        </div>
     </main>
 
-    <!-- ================= PAGE 2: SEO BLOG & INSIGHTS ================= -->
-    <main id="page-blog" class="hidden">
-        <section class="py-20 bg-gradient-to-b from-teal-950 via-teal-900 to-teal-950 min-h-screen">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                
-                <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold px-3 py-1 bg-teal-900 rounded-full border border-teal-700">Expert EdTech Insights</span>
-                    <h1 class="text-4xl sm:text-5xl font-serif font-bold text-white">NammaWeb AI SEO Knowledge Hub</h1>
-                    <p class="text-teal-200 text-base">Explore expert articles, institutional guides, and research on transforming Indian education under NEP 2020 through certified AI mentorship.</p>
-                </div>
-
-                <!-- Blog Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    
-                    <!-- Article 1 -->
-                    <article class="card-luxury rounded-2xl overflow-hidden border border-teal-700/50 flex flex-col justify-between group">
-                        <div>
-                            <div class="h-48 overflow-hidden relative">
-                                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="NEP 2020 AI Integration" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                <div class="absolute top-3 left-3 bg-teal-950/80 backdrop-blur-md px-3 py-1 rounded-md text-xs font-medium text-gold-400 border border-teal-600/50">NEP 2020</div>
-                            </div>
-                            <div class="p-6 space-y-3">
-                                <div class="flex items-center space-x-4 text-xs text-teal-300">
-                                    <span><i class="fa-regular fa-calendar mr-1.5"></i> Sept 16, 2026</span>
-                                    <span><i class="fa-regular fa-clock mr-1.5"></i> 5 min read</span>
-                                </div>
-                                <h2 class="text-xl font-serif font-bold text-white group-hover:text-gold-400 transition-colors">Implementing AI in PU Colleges: A Complete NEP 2020 Roadmap</h2>
-                                <p class="text-teal-200 text-sm leading-relaxed">Discover how PU colleges across Karnataka and India are adopting standardized AI mentor programs to elevate student engagement and analytical capability.</p>
-                            </div>
-                        </div>
-                        <div class="p-6 pt-0">
-                            <button onclick="openBlogModal('Implementing AI in PU Colleges: A Complete NEP 2020 Roadmap')" class="text-xs font-semibold uppercase tracking-wider text-gold-400 hover:text-gold-300 flex items-center">
-                                Read Full Article <i class="fa-solid fa-arrow-right ml-2"></i>
-                            </button>
-                        </div>
-                    </article>
-
-                    <!-- Article 2 -->
-                    <article class="card-luxury rounded-2xl overflow-hidden border border-teal-700/50 flex flex-col justify-between group">
-                        <div>
-                            <div class="h-48 overflow-hidden relative">
-                                <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="NEET and JEE AI Prep" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                <div class="absolute top-3 left-3 bg-teal-950/80 backdrop-blur-md px-3 py-1 rounded-md text-xs font-medium text-gold-400 border border-teal-600/50">Entrance Exams</div>
-                            </div>
-                            <div class="p-6 space-y-3">
-                                <div class="flex items-center space-x-4 text-xs text-teal-300">
-                                    <span><i class="fa-regular fa-calendar mr-1.5"></i> Sept 14, 2026</span>
-                                    <span><i class="fa-regular fa-clock mr-1.5"></i> 7 min read</span>
-                                </div>
-                                <h2 class="text-xl font-serif font-bold text-white group-hover:text-gold-400 transition-colors">How AI Mentors Are Revolutionizing NEET and JEE Medical & Engg Prep</h2>
-                                <p class="text-teal-200 text-sm leading-relaxed">An in-depth look at adaptive diagnostic testing, algorithmic doubt-clearing, and how certified mentors guide medical and engineering aspirants.</p>
-                            </div>
-                        </div>
-                        <div class="p-6 pt-0">
-                            <button onclick="openBlogModal('How AI Mentors Are Revolutionizing NEET and JEE Medical & Engg Prep')" class="text-xs font-semibold uppercase tracking-wider text-gold-400 hover:text-gold-300 flex items-center">
-                                Read Full Article <i class="fa-solid fa-arrow-right ml-2"></i>
-                            </button>
-                        </div>
-                    </article>
-
-                    <!-- Article 3 -->
-                    <article class="card-luxury rounded-2xl overflow-hidden border border-teal-700/50 flex flex-col justify-between group">
-                        <div>
-                            <div class="h-48 overflow-hidden relative">
-                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80" alt="High Income Career in AI" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                <div class="absolute top-3 left-3 bg-teal-950/80 backdrop-blur-md px-3 py-1 rounded-md text-xs font-medium text-gold-400 border border-teal-600/50">Career Opportunity</div>
-                            </div>
-                            <div class="p-6 space-y-3">
-                                <div class="flex items-center space-x-4 text-xs text-teal-300">
-                                    <span><i class="fa-regular fa-calendar mr-1.5"></i> Sept 10, 2026</span>
-                                    <span><i class="fa-regular fa-clock mr-1.5"></i> 6 min read</span>
-                                </div>
-                                <h2 class="text-xl font-serif font-bold text-white group-hover:text-gold-400 transition-colors">Why Certified AI Master Mentorship is India's Top High-Income Career</h2>
-                                <p class="text-teal-200 text-sm leading-relaxed">Explore earning potentials, institutional retainer models, and the exponential demand for certified AI trainers across Indian academic institutions.</p>
-                            </div>
-                        </div>
-                        <div class="p-6 pt-0">
-                            <button onclick="openBlogModal('Why Certified AI Master Mentorship is India\'s Top High-Income Career')" class="text-xs font-semibold uppercase tracking-wider text-gold-400 hover:text-gold-300 flex items-center">
-                                Read Full Article <i class="fa-solid fa-arrow-right ml-2"></i>
-                            </button>
-                        </div>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-    </main>
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="bg-teal-950 border-t border-teal-800/80 py-16 text-teal-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-                
-                <!-- Brand Info & Logo requirement -->
-                <div class="md:col-span-2 space-y-6">
-                    <div class="flex items-center space-x-3">
-                        <!-- Uploaded logo.png in footer -->
-                        <div class="w-12 h-12 rounded-xl bg-teal-900 border border-teal-600/50 flex items-center justify-center p-1 shadow-lg overflow-hidden">
-                            <img src="logo.png" alt="NammaWeb AI Suite Logo" class="w-full h-full object-contain">
-                        </div>
-                        <div>
-                            <span class="text-xl font-serif font-bold text-white tracking-wider">NammaWeb AI Suite</span>
-                            <!-- Email under logo -->
-                            <a href="mailto:info@nammaweb.com" class="block text-xs font-medium text-gold-400 hover:underline">info@nammaweb.com</a>
-                        </div>
+    <!-- Footer with Logo and info@nammaweb.com -->
+    <footer class="bg-teal-950 text-slate-300 py-16 border-t border-teal-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="space-y-4 md:col-span-2">
+                <div class="flex items-center space-x-3">
+                    <!-- Interlocking Geometric Diamond Logo Emblem -->
+                    <div class="w-10 h-10 rounded-xl bg-teal-800 flex items-center justify-center border border-teal-600">
+                        <svg class="w-6 h-6 text-white" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="8">
+                            <path d="M50 10 L85 45 L50 80 L15 45 Z" />
+                            <path d="M30 30 L70 30 L70 70 L30 70 Z" />
+                        </svg>
                     </div>
-                    <p class="text-sm text-teal-300/80 max-w-md leading-relaxed">
-                        Empowering educators, schools, and PU colleges with elite Certified AI Master Mentor programs aligned with NEP 2020 guidelines. Building high-income career opportunities across India.
-                    </p>
+                    <div>
+                        <span class="text-xl font-bold font-serif tracking-wide text-white">NammaWeb</span>
+                        <span class="block text-[10px] tracking-widest text-teal-400 font-semibold uppercase">AI Suite & Ads</span>
+                    </div>
                 </div>
-
-                <!-- Quick Links -->
-                <div>
-                    <h3 class="text-sm font-semibold uppercase tracking-wider text-white mb-4">Navigation</h3>
-                    <ul class="space-y-3 text-sm">
-                        <li><button onclick="switchPage('home')" class="hover:text-white transition-colors">Program Overview</button></li>
-                        <li><button onclick="switchPage('blog')" class="hover:text-white transition-colors">SEO Insights Blog</button></li>
-                        <li><a href="#curriculum" onclick="switchPage('home')" class="hover:text-white transition-colors">NEP 2020 Guidelines</a></li>
-                        <li><a href="#pricing" onclick="switchPage('home')" class="hover:text-white transition-colors">Investment Packages</a></li>
-                    </ul>
-                </div>
-
-                <!-- Contact & Support -->
-                <div>
-                    <h3 class="text-sm font-semibold uppercase tracking-wider text-white mb-4">Direct Support</h3>
-                    <ul class="space-y-3 text-sm">
-                        <li><a href="https://wa.me/917676546577" target="_blank" class="hover:text-white transition-colors flex items-center"><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i> +91 76765 46577</a></li>
-                        <li><a href="mailto:info@nammaweb.com" class="hover:text-white transition-colors flex items-center"><i class="fa-regular fa-envelope text-gold-400 mr-2"></i> info@nammaweb.com</a></li>
-                        <li class="text-xs text-teal-400 pt-2">Available Mon - Sat: 9:00 AM - 7:00 PM IST</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="border-t border-teal-900 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-teal-400">
-                <p>&copy; 2026 NammaWeb AI Suite. All rights reserved. Certified AI Master Mentor Program.</p>
-                <div class="flex space-x-6 mt-4 sm:mt-0">
-                    <a href="#" class="hover:text-teal-200">Privacy Policy</a>
-                    <a href="#" class="hover:text-teal-200">Terms of Service</a>
-                    <a href="#" class="hover:text-teal-200">Compliance</a>
+                <p class="text-sm text-slate-400 max-w-md font-light">
+                    The premier executive AI suite and growth marketing academy for BBA and MBA professionals, driving high-converting digital campaigns globally.
+                </p>
+                <div class="text-sm font-medium text-gold-400 pt-1">
+                    <i class="fa-solid fa-envelope mr-2"></i> <a href="mailto:info@nammaweb.com" class="hover:underline">info@nammaweb.com</a>
                 </div>
             </div>
+
+            <div class="space-y-3">
+                <h4 class="text-white font-semibold text-sm uppercase tracking-wider">Navigation</h4>
+                <ul class="space-y-2 text-sm text-slate-400">
+                    <li><button onclick="switchPage('home')" class="hover:text-gold-400 transition-colors">Program Overview</button></li>
+                    <li><button onclick="switchPage('home'); location.href='#gallery';" class="hover:text-gold-400 transition-colors">Visual Gallery</button></li>
+                    <li><button onclick="switchPage('home'); location.href='#booking';" class="hover:text-gold-400 transition-colors">Indian Pricing Plans</button></li>
+                    <li><button onclick="switchPage('blog')" class="hover:text-gold-400 transition-colors">SEO Blog & Insights</button></li>
+                </ul>
+            </div>
+
+            <div class="space-y-3">
+                <h4 class="text-white font-semibold text-sm uppercase tracking-wider">Direct WhatsApp</h4>
+                <p class="text-sm text-slate-400">Need immediate counseling or support?</p>
+                <a href="https://wa.me/917676546577" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-xl text-sm font-medium shadow transition-all">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> +91 76765 46577
+                </a>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-teal-900/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+            <p>&copy; 2026 NammaWeb AI Suite. All rights reserved.</p>
+            <p class="mt-2 sm:mt-0">Designed with Luxury Hospitality Branding & Growth Marketing Standards.</p>
         </div>
     </footer>
 
-    <!-- ================= FLOATING WHATSAPP WIDGET ================= -->
+    <!-- Floating WhatsApp Widget & Pop-in (7676546577) -->
     <div class="fixed bottom-6 right-6 z-50">
-        <a href="https://wa.me/917676546577?text=Hi%20NammaWeb%20AI%20Suite,%20I%20want%20to%20know%20more%20about%20the%20Certified%20AI%20Master%20Mentor%20Program." target="_blank" class="flex items-center space-x-3 bg-emerald-600 hover:bg-emerald-500 text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl transition-all transform hover:scale-105 border border-emerald-400/40 group">
-            <i class="fa-brands fa-whatsapp text-2xl sm:text-3xl"></i>
-            <div class="hidden sm:block text-left pr-1">
-                <span class="block text-[10px] uppercase tracking-wider text-emerald-100 font-semibold">Instant Chat</span>
-                <span class="text-xs font-bold text-white">+91 76765 46577</span>
-            </div>
-        </a>
+        <button onclick="toggleWhatsAppPopup()" class="flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-full shadow-2xl transition-all transform hover:scale-110 group focus:outline-none" aria-label="Open WhatsApp chat">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-300 ease-in-out text-sm font-semibold pr-1">
+                Chat on WhatsApp
+            </span>
+        </button>
     </div>
 
-    <!-- ================= BOOKING MODAL ================= -->
-    <div id="booking-modal" class="fixed inset-0 z-50 hidden bg-teal-950/80 backdrop-blur-md flex items-center justify-center p-4">
-        <div class="card-luxury max-w-md w-full p-8 rounded-3xl border border-teal-600 relative shadow-2xl">
-            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-teal-300 hover:text-white text-xl">
+    <!-- WhatsApp Pop-in Window -->
+    <div id="whatsapp-popup" class="fixed bottom-24 right-6 z-50 hidden max-w-sm w-full bg-white rounded-2xl shadow-2xl border border-emerald-100 overflow-hidden transform transition-all">
+        <div class="bg-emerald-600 text-white p-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center font-bold">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                </div>
+                <div>
+                    <h4 class="font-bold text-sm">NammaWeb AI Counselor</h4>
+                    <span class="text-[10px] text-emerald-100 flex items-center gap-1">
+                        <span class="w-2 h-2 rounded-full bg-emerald-300 animate-pulse"></span> Online • Reply in seconds
+                    </span>
+                </div>
+            </div>
+            <button onclick="toggleWhatsAppPopup()" class="text-white hover:text-emerald-200 text-lg p-1" aria-label="Close WhatsApp pop-in">
                 <i class="fa-solid fa-xmark"></i>
             </button>
-            <div class="space-y-6">
-                <div>
-                    <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Secure Enrollment</span>
-                    <h3 id="modal-package-title" class="text-2xl font-serif font-bold text-white mt-1">Certified AI Master Mentor</h3>
-                    <p id="modal-package-price" class="text-teal-300 text-sm mt-1">Investment: ₹49,999</p>
-                </div>
+        </div>
+        <div class="p-4 bg-slate-50 space-y-3 text-xs">
+            <div class="bg-white p-3 rounded-xl shadow-sm border border-slate-100 max-w-[85%] space-y-1">
+                <p class="text-slate-700">Hello! 👋 Welcome to <strong class="text-teal-900">NammaWeb AI Suite</strong>. Are you interested in our Growth Marketing AI & Ads (BBA/MBA) programs?</p>
+                <span class="text-[9px] text-slate-400 block text-right">Just now</span>
+            </div>
+        </div>
+        <div class="p-3 bg-white border-t border-slate-100 flex items-center gap-2">
+            <input type="text" id="wa-msg-input" placeholder="Type your query..." class="flex-1 bg-slate-100 border border-slate-200 rounded-xl px-3 py-2.5 text-xs focus:outline-none focus:border-emerald-500">
+            <button onclick="sendWhatsAppMessage()" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-xl text-xs font-semibold shadow">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
 
-                <form onsubmit="handleBookingSubmit(event)" class="space-y-4">
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-8 shadow-2xl border border-teal-100 relative">
+            <button onclick="closeBookingModal()" class="absolute top-6 right-6 text-slate-400 hover:text-slate-700 text-xl font-bold" aria-label="Close booking modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest bg-teal-100 text-teal-800 px-3 py-1 rounded-full">Secure Enrollment</span>
+                <h3 class="text-2xl font-serif font-bold text-teal-950" id="modal-title">Enroll in Program</h3>
+                <p class="text-sm text-slate-600 font-light">Fill in your details below to secure your seat in our upcoming executive batch. Our admissions counselor will contact you shortly.</p>
+                
+                <form onsubmit="handleBookingSubmit(event)" class="space-y-4 pt-2">
                     <div>
-                        <label class="block text-xs font-medium text-teal-200 mb-1">Full Name</label>
-                        <input type="text" required class="w-full bg-teal-900/90 border border-teal-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-400" placeholder="Enter your full name">
+                        <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Full Name</label>
+                        <input type="text" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:border-teal-700 text-sm" placeholder="e.g., Aakash Sharma">
                     </div>
                     <div>
-                        <label class="block text-xs font-medium text-teal-200 mb-1">Email Address</label>
-                        <input type="email" required class="w-full bg-teal-900/90 border border-teal-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-400" placeholder="info@example.com">
+                        <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Email Address</label>
+                        <input type="email" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:border-teal-700 text-sm" placeholder="e.g., aakash@corporate.com">
                     </div>
                     <div>
-                        <label class="block text-xs font-medium text-teal-200 mb-1">WhatsApp Mobile Number</label>
-                        <input type="tel" required class="w-full bg-teal-900/90 border border-teal-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-400" placeholder="+91 76765 46577">
+                        <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">WhatsApp Phone Number</label>
+                        <input type="tel" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:border-teal-700 text-sm" placeholder="+91 98765 43210">
                     </div>
-                    <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-teal-950 font-bold text-sm shadow-xl shadow-gold-600/30 transition-all">
-                        Confirm & Proceed on WhatsApp
-                    </button>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Academic / Professional Background</label>
+                        <select class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:border-teal-700 text-sm bg-white">
+                            <option>BBA Student / Graduate</option>
+                            <option>MBA Student / Graduate</option>
+                            <option>Digital Marketing Professional</option>
+                            <option>Startup Founder / Business Owner</option>
+                        </select>
+                    </div>
+                    <div class="pt-4">
+                        <button type="submit" class="w-full bg-teal-700 hover:bg-teal-800 text-white font-semibold py-3.5 rounded-xl shadow-md transition-all">
+                            Confirm Registration & Connect
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
 
-    <!-- ================= BLOG READER MODAL ================= -->
-    <div id="blog-modal" class="fixed inset-0 z-50 hidden bg-teal-950/80 backdrop-blur-md flex items-center justify-center p-4">
-        <div class="card-luxury max-w-2xl w-full p-8 rounded-3xl border border-teal-600 relative shadow-2xl max-h-[85vh] overflow-y-auto">
-            <button onclick="closeBlogModal()" class="absolute top-4 right-4 text-teal-300 hover:text-white text-xl">
+    <!-- Blog Article Modal -->
+    <div id="blog-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-3xl max-w-2xl w-full p-8 shadow-2xl border border-teal-100 relative max-h-[85vh] overflow-y-auto">
+            <button onclick="closeBlogModal()" class="absolute top-6 right-6 text-slate-400 hover:text-slate-700 text-xl font-bold" aria-label="Close blog article modal">
                 <i class="fa-solid fa-xmark"></i>
             </button>
-            <div class="space-y-6">
-                <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold bg-teal-900 px-3 py-1 rounded-full border border-teal-700">SEO Insights Article</span>
-                <h2 id="blog-modal-title" class="text-2xl sm:text-3xl font-serif font-bold text-white">Article Title</h2>
-                <div class="text-teal-200 text-sm sm:text-base leading-relaxed space-y-4">
-                    <p>The transformation of Indian education under NEP 2020 has opened unprecedented avenues for high-income career opportunities. As schools and PU colleges race to integrate artificial intelligence into foundational and competitive tracks (including NEET, CET, and JEE), the demand for certified AI trainers has skyrocketed.</p>
-                    <p>NammaWeb AI Suite bridges this gap by providing comprehensive master mentor certification. Educators and professionals trained through our 30, 60, or 125-day cohorts are uniquely equipped with diagnostic AI tools, automated assessment pipelines, and institutional curriculum frameworks.</p>
-                    <p>Whether you are looking to secure lucrative institutional contracts or build an independent EdTech consultancy, mastering these competencies guarantees long-term professional growth and financial independence.</p>
+            <div class="space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest bg-teal-100 text-teal-800 px-3 py-1 rounded-full">SEO Insights</span>
+                <h2 id="blog-modal-title" class="text-2xl font-serif font-bold text-teal-950">Article Title</h2>
+                <div class="text-xs text-slate-500 pb-4 border-b border-slate-100 flex items-center justify-between">
+                    <span>Published by NammaWeb AI Suite Research</span>
+                    <span>Verified Expert Review</span>
                 </div>
-                <div class="pt-4 border-t border-teal-800 flex justify-between items-center">
-                    <span class="text-xs text-teal-400">Contact: info@nammaweb.com</span>
-                    <button onclick="closeBlogModal()" class="px-6 py-2.5 rounded-xl bg-teal-800 hover:bg-teal-700 text-white text-xs font-semibold">Close Article</button>
+                <div id="blog-modal-content" class="text-sm text-slate-700 space-y-4 leading-relaxed font-light"></div>
+                <div class="pt-6 border-t border-slate-100 flex justify-end">
+                    <button onclick="closeBlogModal()" class="bg-teal-700 text-white px-6 py-2.5 rounded-xl text-sm font-medium">Close Article</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- ================= JAVASCRIPT ================= -->
+    <!-- Client-Side JavaScript Logic -->
     <script>
-        // Page Switching Logic (Home vs Blog)
         function switchPage(pageId) {
-            const homePage = document.getElementById('page-home');
-            const blogPage = document.getElementById('page-blog');
-            const homeBtn = document.getElementById('nav-home-btn');
-            const blogBtn = document.getElementById('nav-blog-btn');
+            const pages = document.querySelectorAll('.page-view');
+            pages.forEach(p => p.classList.add('hidden'));
 
-            if (pageId === 'home') {
-                homePage.classList.remove('hidden');
-                blogPage.classList.add('hidden');
-                homeBtn.classList.add('border-teal-400', 'text-white');
-                homeBtn.classList.remove('border-transparent', 'text-teal-300');
-                blogBtn.classList.remove('border-teal-400', 'text-white');
-                blogBtn.classList.add('border-transparent', 'text-teal-300');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            } else if (pageId === 'blog') {
-                homePage.classList.add('hidden');
-                blogPage.classList.remove('hidden');
-                blogBtn.classList.add('border-teal-400', 'text-white');
-                blogBtn.classList.remove('border-transparent', 'text-teal-300');
-                homeBtn.classList.remove('border-teal-400', 'text-white');
-                homeBtn.classList.add('border-transparent', 'text-teal-300');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+            if(pageId === 'home') {
+                document.getElementById('page-home').classList.remove('hidden');
+                document.getElementById('nav-home').className = "text-teal-700 font-semibold transition-colors pb-1 border-b-2 border-teal-700";
+                document.getElementById('nav-blog').className = "text-slate-600 hover:text-teal-700 transition-colors pb-1 border-b-2 border-transparent";
+            } else if(pageId === 'blog') {
+                document.getElementById('page-blog').classList.remove('hidden');
+                document.getElementById('nav-blog').className = "text-teal-700 font-semibold transition-colors pb-1 border-b-2 border-teal-700";
+                document.getElementById('nav-home').className = "text-slate-600 hover:text-teal-700 transition-colors pb-1 border-b-2 border-transparent";
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function toggleMobileMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+
+        function toggleWhatsAppPopup() {
+            const popup = document.getElementById('whatsapp-popup');
+            if (popup.classList.contains('hidden')) {
+                popup.classList.remove('hidden');
+                popup.classList.add('block');
+            } else {
+                popup.classList.add('hidden');
+                popup.classList.remove('block');
             }
         }
 
-        // Mobile Menu Toggle
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        function toggleMobileMenu() {
-            mobileMenu.classList.add('hidden');
+        function sendWhatsAppMessage() {
+            const input = document.getElementById('wa-msg-input');
+            const msg = input.value.trim() || "Hello NammaWeb AI Suite, I want to know more about Growth Marketing AI & Ads (BBA/MBA).";
+            window.open(`https://wa.me/917676546577?text=${encodeURIComponent(msg)}`, '_blank');
         }
 
-        // Booking Modal Logic
-        function openBookingModal(packageName, packagePrice) {
-            document.getElementById('modal-package-title').innerText = packageName;
-            document.getElementById('modal-package-price').innerText = 'Investment: ' + packagePrice;
+        function openBookingModal(planName, price) {
+            document.getElementById('modal-title').innerText = `Enroll in ${planName} (${price})`;
             document.getElementById('booking-modal').classList.remove('hidden');
+            document.getElementById('booking-modal').classList.add('flex');
         }
 
         function closeBookingModal() {
             document.getElementById('booking-modal').classList.add('hidden');
+            document.getElementById('booking-modal').classList.remove('flex');
         }
 
         function handleBookingSubmit(event) {
             event.preventDefault();
-            const packageName = document.getElementById('modal-package-title').innerText;
-            const price = document.getElementById('modal-package-price').innerText;
-            const whatsappUrl = `https://wa.me/917676546577?text=Hi%20NammaWeb%20AI%20Suite,%20I%20want%20to%20enroll%20in%20the%20${encodeURIComponent(packageName)}%20(${encodeURIComponent(price)}).%20Please%20guide%20me%20through%20the%20payment%20and%20onboarding.`;
-            window.open(whatsappUrl, '_blank');
             closeBookingModal();
+            window.open('https://wa.me/917676546577?text=Hello%20NammaWeb,%20I%20have%20submitted%20my%20enrollment%20application%20for%20the%20Growth%20Marketing%20AI%20&%20Ads%20program.', '_blank');
         }
 
-        // Blog Modal Logic
-        function openBlogModal(title) {
+        function openBlogArticle(title) {
             document.getElementById('blog-modal-title').innerText = title;
+            document.getElementById('blog-modal-content').innerHTML = `
+                <p><strong>Introduction:</strong> In the fast-evolving landscape of digital commerce and executive leadership, integrating artificial intelligence into growth marketing and ad bidding has transitioned from a competitive advantage to an absolute necessity.</p>
+                <p><strong>Key Strategic Takeaways for BBA/MBA Scholars:</strong></p>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li><strong>Algorithmic Audience Discovery:</strong> Modern programmatic ads leverage neural networks to analyze micro-behaviors across millions of user sessions.</li>
+                    <li><strong>Predictive ROAS Modeling:</strong> Moving past historical attribution to forward-looking predictive lifetime value calculations.</li>
+                    <li><strong>Cross-Channel Synergy:</strong> Unifying organic search visibility with automated paid ad retargeting loops.</li>
+                </ul>
+                <p><strong>Conclusion:</strong> Mastering these frameworks prepares tomorrow's CMOs to lead multi-million dollar growth budgets with precision and agility.</p>
+            `;
             document.getElementById('blog-modal').classList.remove('hidden');
+            document.getElementById('blog-modal').classList.add('flex');
         }
 
         function closeBlogModal() {
             document.getElementById('blog-modal').classList.add('hidden');
+            document.getElementById('blog-modal').classList.remove('flex');
         }
     </script>
 </body>
